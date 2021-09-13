@@ -1,0 +1,42 @@
+{
+  "name": "surgiollc/jsroute",
+  "description": "Access Laravels URL/Route helper functions, from JavaScript.",
+  "keywords": [
+    "laravel",
+    "routes",
+    "routing",
+    "javascript"
+  ],
+  "authors": [
+    {
+      "name": "Jeff Claeson",
+      "email": "jeff@surgio.com"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=8.0",
+    "illuminate/support": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*|5.7.*|5.8.*|6.0.*|7.13.*|8.*",
+    "illuminate/routing": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*|5.7.*|5.8.*|6.0.*|7.13.*|8.*",
+    "illuminate/console": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*|5.7.*|5.8.*|6.0.|7.13.*|8.*",
+    "illuminate/config": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*|5.7.*|5.8.*|6.0.*|7.13.*|8.*",
+    "illuminate/filesystem": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*|5.7.*|5.8.*|6.0.*|7.13.*|8.*"
+  },
+  "require-dev": {
+    "mockery/mockery": "^1.0",
+    "phpunit/phpunit": "^8.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Surgio\\Jsroute\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Surgio\\Jsroute\\JsrouteServiceProvider"
+      ]
+    }
+  }
+}
